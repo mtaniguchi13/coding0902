@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 100px 0;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mywork {
+    font-size: 28px;
+}
+
+.mywork a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.img1 {
+    height: 20px;
+    width: 20px;
+}
+
+.main-img img {
+    width: 100%;
+    max-width: 1920px;
+    object-fit: cover;
+    height: 420px;
+    margin-bottom: 70px;
+
+
+}
+
+.contents {
+    margin: 60px 0;
+}
+
+.contents h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contents p {
+    font-size: 14px;
+}
+
+.profile {
+    font-size: 16px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.images img {
+    width: 30%;
+    margin: 15px;
+}
+
+.con {
+    display: flex;
+    line-height: 3;
+    border-top: solid 0.2px rgb(194, 189, 189);
+}
+
+.concon {
+    border-bottom: solid 0.2px rgb(194, 189, 189);
+}
+
+.materials {
+    display: inline-block;
+    margin-left: 100px
+
+}
+
+.contents dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contents dt {
+    text-align: left;
+    width: 15%;
+    display: block;
+    height: 50px;
+}
+
+.contents dd {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.contents input {
+    width: 100%;
+    height: 50px;
+    border:rgb(194, 189, 189) solid 1px;
+}
+
+.contents textarea {
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    border:rgb(194, 189, 189) solid 1px;
+    resize: vertical;
+}
+
+.btn {
+    padding: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn input {
+    text-align: center;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.btn input:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
